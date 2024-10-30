@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 100vh;
-    gap: 5px;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
