@@ -1,7 +1,9 @@
 const div = document.querySelector(".container");
 
-const divs = document.createElement('div');
-divs.textContent = 1;
-divs.style.cssText = "border:3px Solid Blue; width: 50px; height: 50px;";
 
-div.appendChild(divs)
+for(let i = 1; i <= 256; i++){
+    const divs = document.createElement('div');
+    divs.textContent = i;
+    divs.style.cssText = "border:3px Solid Blue; width: 50px; height: 50px; display:flex; justify-content:center;align-items: center; margin: 20px;";
+    div.appendChild(divs)
+}
