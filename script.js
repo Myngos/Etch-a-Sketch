@@ -23,12 +23,14 @@ function randomColorValue() {
 document.getElementById('btn').addEventListener('click', ()=>{
 
     container.textContent = "";
-    
+
     let i = prompt('Enter the number of squares per side for the new grid!');
-    
     if(i > 100 || i < 1){
         let i = prompt("Enter a number between 1 and 100!");
     }
+
+    i = i*i;
+    
 
     for(j = 1; j <= i; j++){
         const divs = document.createElement('div');
