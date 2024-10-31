@@ -6,3 +6,14 @@
     padding: 0;
     gap: 10px;
 }
+button{
+    border: 5px solid blue;
+    padding: 10px 30px;
+    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 60px;
+}
