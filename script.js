@@ -36,6 +36,7 @@ document.getElementById('btn').addEventListener('click', ()=>{
         const divs = document.createElement('div');
    
     divs.style.cssText = "border:2px solid blue; width: 50px; height: 50px; display:flex; justify-content:center;align-items: center;";
+    divs.textContent = j;
     divs.addEventListener("mouseover", function() {
         divs.style.backgroundColor = `rgb(${randomColorValue()}, ${randomColorValue()}, ${randomColorValue()})`;
     });
