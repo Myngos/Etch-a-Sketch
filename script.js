@@ -21,5 +21,5 @@ function randomColorValue() {
 }
 
 document.getElementById('btn').addEventListener('click', ()=>{
-    alert('Enter the number of squares per side for the new grid!');
+    prompt('Enter the number of squares per side for the new grid!');
 })
